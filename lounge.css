@@ -1,18 +1,46 @@
 body{
-     font-size:sans-serif;
+  font-size: small;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
 }
 h1,h2{
-     color:     gray;
+  color:     #007e7e;
 }
 h1{
-     border-bottom:1px solid black;
+  font-size: 150%;
 }
-p{
-     color:       maroon;
+h2{
+  font-size: 130%;
 }
-p.grentea{
-     color:green;
+#elixirs {
+      border-width: thin;
+      border-style: solid;
+      border-color: #007e7e;
+      width:200px;
+
+
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+
+      margin-left: 20px;
+
+
+     text-align: center;
+
+
+      background-image: url(imges/cocktail.gif);
+      background-repeat: repeat-x;
 }
-em{
-     font-family:serif;
+#elixirs h2 {
+    color: black;
+}
+#elixirs h3 {
+    color: #d12c47;
+}
+#elixirs {
+    line-height: 1em;
+}
+#elixirs {
+    line-height: 1;
 }
