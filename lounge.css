@@ -12,7 +12,24 @@ h1{
 h2{
   font-size: 130%;
 }
-#elixirs {
+.guarantee {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #444444;
+    border-color:white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.elixirs {
       border-width: thin;
       border-style: solid;
       border-color: #007e7e;
@@ -29,7 +46,7 @@ h2{
      text-align: center;
 
 
-      background-image: url(imges/cocktail.gif);
+      background-image: url(images/cocktail.gif);
       background-repeat: repeat-x;
 }
 #elixirs h2 {
@@ -43,4 +60,20 @@ h2{
 }
 #elixirs {
     line-height: 1;
+}
+.cd {
+    font-style: italic;
+}
+.artist {
+    font-weight: bold;
+}
+#elixirs a:link {
+    color: #007e7e;
+}
+#elixirs a:visited {
+    color: #333333;
+}
+#elixirs a:hover {
+    background: #f88396;
+    COLOR: #0d5353;
 }
